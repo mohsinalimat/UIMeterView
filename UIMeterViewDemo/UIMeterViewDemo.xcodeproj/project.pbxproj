@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC16DC241D3CE46F00F50BAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC16DC231D3CE46F00F50BAC /* main.m */; };
+		AC16DC271D3CE46F00F50BAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC16DC261D3CE46F00F50BAC /* AppDelegate.m */; };
+		AC16DC2A1D3CE46F00F50BAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC16DC291D3CE46F00F50BAC /* ViewController.m */; };
+		AC16DC2D1D3CE46F00F50BAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC16DC2B1D3CE46F00F50BAC /* Main.storyboard */; };
+		AC16DC301D3CE46F00F50BAC /* UIMeterViewDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC16DC2E1D3CE46F00F50BAC /* UIMeterViewDemo.xcdatamodeld */; };
+		AC16DC321D3CE46F00F50BAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC16DC311D3CE46F00F50BAC /* Assets.xcassets */; };
+		AC16DC351D3CE46F00F50BAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC16DC331D3CE46F00F50BAC /* LaunchScreen.storyboard */; };
+		AC16DC401D3CE46F00F50BAC /* UIMeterViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC16DC3F1D3CE46F00F50BAC /* UIMeterViewDemoTests.m */; };
+		AC16DC4B1D3CE46F00F50BAC /* UIMeterViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC16DC4A1D3CE46F00F50BAC /* UIMeterViewDemoUITests.m */; };
+		AC16DC5D1D3CE47900F50BAC /* UICountingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AC16DC5A1D3CE47900F50BAC /* UICountingLabel.m */; };
+		AC16DC5E1D3CE47900F50BAC /* UIMeterView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC16DC5C1D3CE47900F50BAC /* UIMeterView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC16DC3C1D3CE46F00F50BAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC16DC171D3CE46F00F50BAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC16DC1E1D3CE46F00F50BAC;
+			remoteInfo = UIMeterViewDemo;
+		};
+		AC16DC471D3CE46F00F50BAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC16DC171D3CE46F00F50BAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC16DC1E1D3CE46F00F50BAC;
+			remoteInfo = UIMeterViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC16DC1F1D3CE46F00F50BAC /* UIMeterViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIMeterViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC16DC231D3CE46F00F50BAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC16DC251D3CE46F00F50BAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC16DC261D3CE46F00F50BAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC16DC281D3CE46F00F50BAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AC16DC291D3CE46F00F50BAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AC16DC2C1D3CE46F00F50BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC16DC2F1D3CE46F00F50BAC /* UIMeterViewDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UIMeterViewDemo.xcdatamodel; sourceTree = "<group>"; };
+		AC16DC311D3CE46F00F50BAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC16DC341D3CE46F00F50BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC16DC361D3CE46F00F50BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC16DC3B1D3CE46F00F50BAC /* UIMeterViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIMeterViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC16DC3F1D3CE46F00F50BAC /* UIMeterViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIMeterViewDemoTests.m; sourceTree = "<group>"; };
+		AC16DC411D3CE46F00F50BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC16DC461D3CE46F00F50BAC /* UIMeterViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIMeterViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC16DC4A1D3CE46F00F50BAC /* UIMeterViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIMeterViewDemoUITests.m; sourceTree = "<group>"; };
+		AC16DC4C1D3CE46F00F50BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC16DC591D3CE47900F50BAC /* UICountingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICountingLabel.h; sourceTree = "<group>"; };
+		AC16DC5A1D3CE47900F50BAC /* UICountingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICountingLabel.m; sourceTree = "<group>"; };
+		AC16DC5B1D3CE47900F50BAC /* UIMeterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMeterView.h; sourceTree = "<group>"; };
+		AC16DC5C1D3CE47900F50BAC /* UIMeterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIMeterView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC16DC1C1D3CE46F00F50BAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC16DC381D3CE46F00F50BAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC16DC431D3CE46F00F50BAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC16DC161D3CE46F00F50BAC = {
+			isa = PBXGroup;
+			children = (
+				AC16DC211D3CE46F00F50BAC /* UIMeterViewDemo */,
+				AC16DC3E1D3CE46F00F50BAC /* UIMeterViewDemoTests */,
+				AC16DC491D3CE46F00F50BAC /* UIMeterViewDemoUITests */,
+				AC16DC201D3CE46F00F50BAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC16DC201D3CE46F00F50BAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC16DC1F1D3CE46F00F50BAC /* UIMeterViewDemo.app */,
+				AC16DC3B1D3CE46F00F50BAC /* UIMeterViewDemoTests.xctest */,
+				AC16DC461D3CE46F00F50BAC /* UIMeterViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC16DC211D3CE46F00F50BAC /* UIMeterViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AC16DC581D3CE47900F50BAC /* UIMeterView */,
+				AC16DC251D3CE46F00F50BAC /* AppDelegate.h */,
+				AC16DC261D3CE46F00F50BAC /* AppDelegate.m */,
+				AC16DC281D3CE46F00F50BAC /* ViewController.h */,
+				AC16DC291D3CE46F00F50BAC /* ViewController.m */,
+				AC16DC2B1D3CE46F00F50BAC /* Main.storyboard */,
+				AC16DC311D3CE46F00F50BAC /* Assets.xcassets */,
+				AC16DC331D3CE46F00F50BAC /* LaunchScreen.storyboard */,
+				AC16DC361D3CE46F00F50BAC /* Info.plist */,
+				AC16DC2E1D3CE46F00F50BAC /* UIMeterViewDemo.xcdatamodeld */,
+				AC16DC221D3CE46F00F50BAC /* Supporting Files */,
+			);
+			path = UIMeterViewDemo;
+			sourceTree = "<group>";
+		};
+		AC16DC221D3CE46F00F50BAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC16DC231D3CE46F00F50BAC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC16DC3E1D3CE46F00F50BAC /* UIMeterViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC16DC3F1D3CE46F00F50BAC /* UIMeterViewDemoTests.m */,
+				AC16DC411D3CE46F00F50BAC /* Info.plist */,
+			);
+			path = UIMeterViewDemoTests;
+			sourceTree = "<group>";
+		};
+		AC16DC491D3CE46F00F50BAC /* UIMeterViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC16DC4A1D3CE46F00F50BAC /* UIMeterViewDemoUITests.m */,
+				AC16DC4C1D3CE46F00F50BAC /* Info.plist */,
+			);
+			path = UIMeterViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		AC16DC581D3CE47900F50BAC /* UIMeterView */ = {
+			isa = PBXGroup;
+			children = (
+				AC16DC591D3CE47900F50BAC /* UICountingLabel.h */,
+				AC16DC5A1D3CE47900F50BAC /* UICountingLabel.m */,
+				AC16DC5B1D3CE47900F50BAC /* UIMeterView.h */,
+				AC16DC5C1D3CE47900F50BAC /* UIMeterView.m */,
+			);
+			path = UIMeterView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC16DC1E1D3CE46F00F50BAC /* UIMeterViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC16DC4F1D3CE46F00F50BAC /* Build configuration list for PBXNativeTarget "UIMeterViewDemo" */;
+			buildPhases = (
+				AC16DC1B1D3CE46F00F50BAC /* Sources */,
+				AC16DC1C1D3CE46F00F50BAC /* Frameworks */,
+				AC16DC1D1D3CE46F00F50BAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIMeterViewDemo;
+			productName = UIMeterViewDemo;
+			productReference = AC16DC1F1D3CE46F00F50BAC /* UIMeterViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC16DC3A1D3CE46F00F50BAC /* UIMeterViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC16DC521D3CE46F00F50BAC /* Build configuration list for PBXNativeTarget "UIMeterViewDemoTests" */;
+			buildPhases = (
+				AC16DC371D3CE46F00F50BAC /* Sources */,
+				AC16DC381D3CE46F00F50BAC /* Frameworks */,
+				AC16DC391D3CE46F00F50BAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC16DC3D1D3CE46F00F50BAC /* PBXTargetDependency */,
+			);
+			name = UIMeterViewDemoTests;
+			productName = UIMeterViewDemoTests;
+			productReference = AC16DC3B1D3CE46F00F50BAC /* UIMeterViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC16DC451D3CE46F00F50BAC /* UIMeterViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC16DC551D3CE46F00F50BAC /* Build configuration list for PBXNativeTarget "UIMeterViewDemoUITests" */;
+			buildPhases = (
+				AC16DC421D3CE46F00F50BAC /* Sources */,
+				AC16DC431D3CE46F00F50BAC /* Frameworks */,
+				AC16DC441D3CE46F00F50BAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC16DC481D3CE46F00F50BAC /* PBXTargetDependency */,
+			);
+			name = UIMeterViewDemoUITests;
+			productName = UIMeterViewDemoUITests;
+			productReference = AC16DC461D3CE46F00F50BAC /* UIMeterViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC16DC171D3CE46F00F50BAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = com.guiq;
+				TargetAttributes = {
+					AC16DC1E1D3CE46F00F50BAC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					AC16DC3A1D3CE46F00F50BAC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = AC16DC1E1D3CE46F00F50BAC;
+					};
+					AC16DC451D3CE46F00F50BAC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = AC16DC1E1D3CE46F00F50BAC;
+					};
+				};
+			};
+			buildConfigurationList = AC16DC1A1D3CE46F00F50BAC /* Build configuration list for PBXProject "UIMeterViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC16DC161D3CE46F00F50BAC;
+			productRefGroup = AC16DC201D3CE46F00F50BAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC16DC1E1D3CE46F00F50BAC /* UIMeterViewDemo */,
+				AC16DC3A1D3CE46F00F50BAC /* UIMeterViewDemoTests */,
+				AC16DC451D3CE46F00F50BAC /* UIMeterViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC16DC1D1D3CE46F00F50BAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC16DC351D3CE46F00F50BAC /* LaunchScreen.storyboard in Resources */,
+				AC16DC321D3CE46F00F50BAC /* Assets.xcassets in Resources */,
+				AC16DC2D1D3CE46F00F50BAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC16DC391D3CE46F00F50BAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC16DC441D3CE46F00F50BAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC16DC1B1D3CE46F00F50BAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC16DC2A1D3CE46F00F50BAC /* ViewController.m in Sources */,
+				AC16DC271D3CE46F00F50BAC /* AppDelegate.m in Sources */,
+				AC16DC5D1D3CE47900F50BAC /* UICountingLabel.m in Sources */,
+				AC16DC241D3CE46F00F50BAC /* main.m in Sources */,
+				AC16DC5E1D3CE47900F50BAC /* UIMeterView.m in Sources */,
+				AC16DC301D3CE46F00F50BAC /* UIMeterViewDemo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC16DC371D3CE46F00F50BAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC16DC401D3CE46F00F50BAC /* UIMeterViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC16DC421D3CE46F00F50BAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC16DC4B1D3CE46F00F50BAC /* UIMeterViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC16DC3D1D3CE46F00F50BAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC16DC1E1D3CE46F00F50BAC /* UIMeterViewDemo */;
+			targetProxy = AC16DC3C1D3CE46F00F50BAC /* PBXContainerItemProxy */;
+		};
+		AC16DC481D3CE46F00F50BAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC16DC1E1D3CE46F00F50BAC /* UIMeterViewDemo */;
+			targetProxy = AC16DC471D3CE46F00F50BAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC16DC2B1D3CE46F00F50BAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC16DC2C1D3CE46F00F50BAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC16DC331D3CE46F00F50BAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC16DC341D3CE46F00F50BAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC16DC4D1D3CE46F00F50BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC16DC4E1D3CE46F00F50BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC16DC501D3CE46F00F50BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIMeterViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guiq.UIMeterViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC16DC511D3CE46F00F50BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIMeterViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guiq.UIMeterViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AC16DC531D3CE46F00F50BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UIMeterViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guiq.UIMeterViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIMeterViewDemo.app/UIMeterViewDemo";
+			};
+			name = Debug;
+		};
+		AC16DC541D3CE46F00F50BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UIMeterViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guiq.UIMeterViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIMeterViewDemo.app/UIMeterViewDemo";
+			};
+			name = Release;
+		};
+		AC16DC561D3CE46F00F50BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UIMeterViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guiq.UIMeterViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UIMeterViewDemo;
+			};
+			name = Debug;
+		};
+		AC16DC571D3CE46F00F50BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UIMeterViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guiq.UIMeterViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UIMeterViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC16DC1A1D3CE46F00F50BAC /* Build configuration list for PBXProject "UIMeterViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC16DC4D1D3CE46F00F50BAC /* Debug */,
+				AC16DC4E1D3CE46F00F50BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC16DC4F1D3CE46F00F50BAC /* Build configuration list for PBXNativeTarget "UIMeterViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC16DC501D3CE46F00F50BAC /* Debug */,
+				AC16DC511D3CE46F00F50BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC16DC521D3CE46F00F50BAC /* Build configuration list for PBXNativeTarget "UIMeterViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC16DC531D3CE46F00F50BAC /* Debug */,
+				AC16DC541D3CE46F00F50BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC16DC551D3CE46F00F50BAC /* Build configuration list for PBXNativeTarget "UIMeterViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC16DC561D3CE46F00F50BAC /* Debug */,
+				AC16DC571D3CE46F00F50BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC16DC2E1D3CE46F00F50BAC /* UIMeterViewDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC16DC2F1D3CE46F00F50BAC /* UIMeterViewDemo.xcdatamodel */,
+			);
+			currentVersion = AC16DC2F1D3CE46F00F50BAC /* UIMeterViewDemo.xcdatamodel */;
+			path = UIMeterViewDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AC16DC171D3CE46F00F50BAC /* Project object */;
+}
